@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.wm {
+    color: #740606;
+  }
+  
+  .not {
+    color: #3da43d;
+  }
+  
+  .shr {
+    color: #ffae00;
+  }
+  
+  .box1 {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .box1 > a {
+    border: 1px solid black;
+  }
+
+  .box2 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .box3 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  .box4 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .box5 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  .box6 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .box7 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+  }
+
+  .minibox1 {
+    border: 1px dashed black;
+    margin: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .minibox2 {
+    border: 1px dashed black;
+    margin: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
