@@ -5,25 +5,26 @@ html {
 
 .wm {
     color: #740606;
+    text-align: center;
   }
   
   .not {
     color: #3da43d;
+    text-align: center;
   }
   
   .shr {
     color: #ffae00;
+    text-align: center;
   }
   
   .box1 {
-    border: 1px solid black;
-    margin: 20px;
-    padding: 30px;
-    padding-top: 30px;
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 10px;
+    justify-content: space-evenly;
+    column-gap: 10px;
   }
 
   .box1 > a {
@@ -88,3 +89,29 @@ html {
     padding: 20px;
     flex-wrap: wrap;
   }
+
+  .imagebox1 {
+    border: 1px solid black;
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagebox2 {
+    border: 1px solid black;
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagebox3 {
+    border: 1px solid black;
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* maybe should be in .box1?
+    margin: 20px;
+    padding: 30px;
+    padding-top: 30px; */
