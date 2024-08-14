@@ -3,19 +3,35 @@ html {
   width: 100%;
 }
 
-.wm {
+  .titleall > h1 {
+    font-family: AeroliteFancy;
+    display: flex;
+    justify-content: right;
+    flex-grow: 2;
+  }
+
+  .titleall {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .wm {
     color: #740606;
     text-align: center;
+    background-color: #e79696;
   }
   
   .not {
     color: #3da43d;
     text-align: center;
+    background-color: #b5f8b5;
   }
   
   .shr {
     color: #ffae00;
     text-align: center;
+    background-color: #fce2a8;
   }
   
   .box1 {
@@ -109,6 +125,11 @@ html {
     vertical-align: bottom;
     display: flex;
     flex-direction: column;
+  }
+
+  @font-face {
+    font-family: AeroliteFancy;
+    src: url(AeroliteCPone.woff);
   }
 
   /* maybe should be in .box1?
