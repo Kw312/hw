@@ -7,7 +7,7 @@ html {
     font-family: AeroliteFancy;
     display: flex;
     justify-content: right;
-    flex-grow: 2;
+    flex-grow: 3;
   }
 
   .titleall {
